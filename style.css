@@ -1,0 +1,200 @@
+body {
+    background: #1540C3;
+    background-image:url(img/backgroun.svg);
+}
+.navbar-brand {
+    margin-left: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+#navbarNav{
+    margin-left: 758px;
+}
+nav {
+    margin-left: 15px;
+}
+.nav-link{
+    margin-left: 137px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+.heading {
+    margin-left: 66px;
+    margin-top: 98px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    /* identical to box height */
+
+
+    color: #FEAD39;
+}
+.heading-2 {
+    margin-left: 66px;
+    margin-top: -475px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 150px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.paragraf {
+
+    margin-left: 66px;
+    margin-top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 1px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.btn {
+    height: 50px;
+    background-color: #FEAD39;
+    margin-left: 66px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.cloud{
+    width: 100%;
+}
+
+.information {
+    
+    
+    margin-left: 165px;
+    margin-top: -250px;
+}
+
+ .information-2 {
+    width: 20em;
+    height: 10em;
+    left: 20em;
+    top: 20em;
+    
+    margin-left: 100px;
+    margin-top: 250px;
+    
+}
+
+
+.judul {
+    margin-top: -35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    /* identical to box height */
+
+
+    color: #FEAD39;
+}
+
+.sub-judul {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: justify;
+
+    color: #1540C3;
+}
+
+.rocket {
+    margin-top: 100px;
+    
+}
+
+
+@media all and (max-width : 1000px){
+    #navbarNav{
+        margin-left: -100px;
+        
+    }
+
+    .heading {
+        margin-top: 0;
+    }
+
+    .heading-2 {
+        font-size: 75px;
+        margin-top: -575px;
+    }
+
+    .paragraf {
+        font-size: 15px;
+        width: 300px;
+        margin-top: -20px;
+    }
+
+    .btn {
+        width: 200px;
+    }
+    
+
+    .information {
+        margin-top: 0px;
+        margin-left: 0px;
+        
+    }
+
+    .sub-judul {
+        color: #FFFFFF;
+        text-align: justify;
+
+    }
+
+    .home {
+        visibility: hidden;
+    }
+
+    .navbar-toggler {
+        
+        color: #FFFFFF;
+    }
+    
+
+}
